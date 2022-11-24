@@ -24,19 +24,17 @@ jobs:
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
         with:
-          trace: false
+          version: "master"
       # Inject custom scripts
       - name: Inject Script
         run: sed -i "s@</body>@$( cat logseq/inject.html | tr '\n' ' ' | sed 's@&@\\&@g' )</body>@"  www/index.html
       # to make sure asset paths are correctly identified
-      - name: add a nojekyll file
+      - name: Add nojekyll File
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repository-name: patriciobcs/knowledge
           branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
           clean: true
           single-commit: true
-          token: ${{ secrets.TOKEN }}
