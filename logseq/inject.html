@@ -4,9 +4,24 @@
   container.firstChild.style['flex-basis'] = '100%';
   var element = document.createElement('div');
   element.classList.add('giscus');
-container.appendChild(element);
+  container.appendChild(element);
 </script>
-<script src="https://giscus.app/client.js" ... async></script>
+<script src="https://giscus.app/client.js"
+        data-repo="patriciobcs/knowledge"
+        data-repo-id="R_kgDOIfwuHw"
+        data-category="General"
+        data-category-id="DIC_kwDOIfwuH84CSvSR"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="transparent_dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 <script>
   history.pushState = (f => function pushState() {
       var ret = f.apply(this, arguments);
@@ -23,7 +38,7 @@ container.appendChild(element);
   window.addEventListener('popstate', () => {
       window.dispatchEvent(new Event('locationchange'))
   });
-  window.addEventListener('locationchange', function() {
+  window.addEventListener('locationchange', function () {
       const iframe = document.querySelector('iframe.giscus-frame');
       const title = decodeURIComponent(location.hash.split('/').slice(-1)[0]);
       console.debug("location change to:", title, iframe);
@@ -37,33 +52,4 @@ container.appendChild(element);
       }, 'https://giscus.app');
       console.debug("try refresh giscus:", title);
   }, false);
-</script>
-<script>
-  localStorage.setItem = (f => function setItem() {
-      var ret = f.apply(this, arguments);
-      if (arguments.length > 1 && arguments[0] == 'theme') {
-          window.dispatchEvent(new Event('themechange'));
-      }
-      return ret;
-  })(localStorage.setItem);
-
-  window.addEventListener('themechange', () => {
-      const logseqTheme = JSON.parse(window.localStorage.getItem('theme'));
-      const lsq2gisThemeMap = {
-          'dark': 'dark_dimmed',
-          'white': 'light'
-      };
-      const giscusTheme = lsq2gisThemeMap[logseqTheme];
-      const iframe = document.querySelector('iframe.giscus-frame');
-      if (iframe && giscusTheme) {
-          iframe.contentWindow.postMessage({
-              giscus: {
-                  setConfig: {
-                      theme: giscusTheme
-                  }
-              }
-          }, 'https://giscus.app');
-          console.debug("try switch giscus theme:", giscusTheme);
-      }
-  });
 </script>
