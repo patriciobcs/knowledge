@@ -1,0 +1,1 @@
+- A deep dive in different softwares I have use or I found interesting.

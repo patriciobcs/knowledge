@@ -1,4 +1,4 @@
-type:: Software
+type:: [[Software]], [[Code]]
 description:: A language empowering everyone to build reliable and efficient software.
 
 - ## Theory
@@ -11,3 +11,6 @@ description:: A language empowering everyone to build reliable and efficient sof
 	- [Lib.rs](https://lib.rs/): collection of Rust libraries and applications.
 	- [Crates.io](https://crates.io): crates (libraries) official registry.
 	- [Docs.rs](https://docs.rs): creates (libraries and apps) official documentations registry.
+- ## Testing
+	- [[Kani]]
+	-
