@@ -1,0 +1,103 @@
+type:: [[Language]], [[Summary]]
+description:: A cheatsheet of the French Language
+
+- Conecteurs
+	- Opposition ou restriction
+		- Cependant, Néanmoins, Pourtant, Toutefois, Mais, Or, Sauf, Malgré, Au contrarie, Par contre
+	- Cause
+		- Car, En effet, Comme, Parce que, Puisque, Ètant donné, Vu que, Grâce à, Par suite de, Effectivement
+	- Consequence
+		- Donc, Par conséquence, Ainsi, Aussi, D'où, Si bien que
+	- Comparaison
+		- Comme, De même que, Ainsi que, Autant que, Paraillement, Plus que, Selon que, Comme si
+	- Justification
+		- Car, En effet, Parce que, Puisque, Ainsi, C'est ainsi que, C'est-à-dire
+	- Liasion
+		- Alors, Ainsi, Aussi, D'ailleurs, En fait, En effet, De même, Également, Puis, Ensuite
+	- Temps
+		- Quand, Lorsque, Comme, Avant que, Après que, Alors que, Tandis que, Pendant, Depuis
+	- Illustration
+		- Par example, Comme, Ainsi, Notamment, Etre autre, En particulier
+	- Classification
+		- Tout d'abord, En premier lieu, Premièrement, Après, Ensuite, De plus, Puis, Enfin, Pour conclure
+	- Conclusion
+		- En conclusion, Pour conclure, En somme, Bref, Ainsi, Donc, En résumé, En un mot, Finalement
+	- Consession
+		- Malgré, Quoique, Alors que, En dépit de, Même si, Bien sûr, Évidemment, Bien que, Il est vrai que
+- Les actions
+	- L'infinitif
+		- Le verb aim**er** | fin**ir** | vend**re**
+	- Le présent
+		- Pour expresser une action dans le présent
+		- Conjugaison
+			- Je aim**e** | fin**is** | vend**s**
+			- Tu aim**es** | fin**is** | vend**s**
+			- Il/elle aim**e** | fin**it** | vend
+			- Nous aim**ons** | fin**issons** | vend**ons**
+			- Vous aim**ez** | fin**issez** | vend**ez**
+			- Ils/elles aim**ent** | fin**issent** | vend**ent**
+	- Le passé composé
+		- Pour expresser une action fini dans le passée
+		- Conjugaison
+			- Je **ai** aim**é** | fin**i** | vend**u**
+			- Tu **as** aim**é** | fini**i** | vend**u**
+			- Il/elle **a** aim**é** | fin**i** | vend**u**
+			- Nous **avons** aim**é** | fin**i** | vend**u**
+			- Vous **avez** aim**é** | fin**i** | vend**u**
+			- Ils/elles **a** aim**é** | fin**i** | vend**u**
+	- L'imparfait
+		- Action passée continue ou habituel
+		- Conditions physicals ou etats mentales/emotionales
+		- Conjugaison (present de nous + termination imperfait)
+			- Je aim**ais** | finiss**ais** | vend**ais**
+			- Tu aim**ais** | finiss**ais** | vend**ais**
+			- Il/elle aim**ait** | finiss**ait** | vend**ait**
+			- Nous aim**ions** | finiss**ions** | vend**ions**
+			- Vous aim**iez** | finiss**iez** | vend**iez**
+			- Ils/elles aim**aient** | finiss**aient** | vend**aient**
+	- Le futur
+		- Pour expresser une action dans le futur
+		- Conjugaison (infinitif + termination futur)
+			- Je aimer**ai** | finir**ai** | vendr**ai**
+			- Tu aimer**as** | finir**as** | vendr**as**
+			- Il/elle aimer**a** | finir**a** | vendr**a**
+			- Nous aimer**ons** | finir**ons** | vendr**ons**
+			- Vous aimer**ez** | finir**ez** | vendr**ez**
+			- Ils/elles aimer**ont** | finir**ont** | vendr**ont**
+	- Le conditionel
+		- Pour expresser phrases conditioneles (si ...)
+		- Conjugaison presént (infinitif + termination imparfait)
+			- Je aimer**ais** | finir**ais** | vendr**ais**
+			- Tu aimer**ais** | finir**ais** | vendr**ais**
+			- Il/elle aimer**ait** | finir**ait** | vendr**ait**
+			- Nous aimer**ions** | finir**ions** | vendr**ions**
+			- Vous aimer**iez** | finir**iez** | vendr**iez**
+			- Ils/elles aimer**aient** | finiss**aient** | vendr**aient**
+		- Conjugaison passé (conditionel avoir/être + passé)
+			- Je **aurais** aim**é** | fin**i** | vend**u**
+			- Tu **aurais** aim**é** | fin**i** | vend**u**
+			- Il/elle **aurait** aim**é** | fin**i** | vend**u**
+			- Nous **aurions** aim**é** | fin**i** | vend**u**
+			- Vous **auriez** aim**é** | fin**i** | vend**u**
+			- Ils/elles **auraient** aim**é** | fin**i** | vend**u**
+	- Subjuntif
+		- Pour expresser souhait, volonté, obligation, ordre, opinion négative, doute, possibilité, nécessite, incertitude, désir, émotion, conjecture et supposition.
+		- Généralement utilisé avec `sujet A + verbe + que + sujet B + verbe au subjuntif`
+		- Il y est nécessaire doux sujet different
+		- Toujours utilisé avec `bien / avant + que + sujet + verbe au subjunctif`
+		- Pour expresser un chose que passe après outre
+		- Conjugaison présent
+			- Je aim**e** | finiss**e** | vend**e** | a**ie**
+			- Tu aim**es** | finiss**es** | vend**es** | a**ies**
+			- Il/elle aim**e** | finiss**e** | vend**e** | a**it**
+			- Nous aim**ions** | finiss**ions** | vend**ions*** | a**yons**
+			- Vous aim**iez** | finiss**iez** | vend**iez** | a**yez**
+			- Ils/elles aim**ent** | finiss**ent** | vend**ent** | a**ient**
+		- Pour expresser une chose que passe avant outre
+		- Conjugaison passée
+			- Je **aie** aim**é** | fin**i** | vend**u**
+			- Tu **aies** aim**é** | fin**i** | vend**u**
+			- Il/elle **ait** aim**é** | fin**i** | vend**u**
+			- Nous **ayons** aim**é** | fin**i** | vend**u**
+			- Vous **ayez** aim**é** | fin**i** | vend**u**
+			- Ils/elles **aient** aim**é** | fin**i** | vend**u**
